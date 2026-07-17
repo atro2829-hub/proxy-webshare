@@ -1,4 +1,3 @@
 function FindProxyForURL(url, host) {
-    // Proxy Auto-Config for Webshare
-    return "PROXY p.webshare.io:9999; DIRECT";
+    return "SOCKS5 198.23.243.226:6361; DIRECT";
 }
